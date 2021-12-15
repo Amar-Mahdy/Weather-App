@@ -8,7 +8,7 @@ export const WeatherProvider = (props) => {
   const [isLoading, setIsLoading] = useState(false);
   const [errMsg, setErrMsg] = useState(null);
 
-  const URL = `http://api.openweathermap.org/data/2.5/weather?units=metric&q=${cityName}&appid=${process.env.REACT_APP_OPENWEATHERMAP_API_KEY}`;
+  const URL = `http://api.openweathermap.org/data/2.5/weather?units=metric&q=${cityName}&appid=${ff7e9b79da159cf2601abe1fbd29d6e0}`;
 
   const getWeather = async (e) => {
     setIsLoading(true);
