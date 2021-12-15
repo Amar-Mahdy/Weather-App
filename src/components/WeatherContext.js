@@ -7,12 +7,11 @@ export const WeatherProvider = (props) => {
   const [cityName, setCityName] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [errMsg, setErrMsg] = useState(null);
-  const KEY = "ff7e9b79da159cf2601abe1fbd29d6e0"
-  const URL = `http://api.openweathermap.org/data/2.5/weather?units=metric&q=${cityName}&appid=${KEY}`;
+
+  const URL = `http://api.openweathermap.org/data/2.5/weather?units=metric&q=${cityName}&appid=${process.env.REACT_APP_OPENWEATHERMAP_API_KEY}`;
 
   const getWeather = async (e) => {
     setIsLoading(true);
-
     try {
       const response = await fetch(URL);
       const weather = await response.json();
