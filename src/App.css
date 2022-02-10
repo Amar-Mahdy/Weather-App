@@ -94,3 +94,8 @@ label {
   color: rgb(64, 153, 64);
   text-transform: capitalize;
 }
+.errorMessage {
+  color: red;
+  font-size: large;
+  font-weight: 9000;
+}
