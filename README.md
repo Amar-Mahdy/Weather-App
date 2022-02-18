@@ -8,7 +8,7 @@
           <td valign="top">    <img width="600" height="200" alt="Screen Shot 2021-10-19 at 11 11 10 PM" src="https://user-images.githubusercontent.com/72751605/137991210-22cdd277-2546-4db4-9f7c-675b03bdf4fa.png" /></td>
         
    
-    <h2> :point_right:	:footprints: To Solve this problem follow the Steps</h2>
+   To Solve this problem follow the Steps
 
 
  
